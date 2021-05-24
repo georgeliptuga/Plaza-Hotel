@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plaza</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200;300;400;500;600;700;800&family=Spectral:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;500;600;700;800&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200;300;400;500;600;700;800&family=Spectral:wght@200;300;400;500;600;700;800&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+</style>
+</head>
+<body>
+
+	<!-- <button id="btnScrollToTop">
+		<i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
+	</button> -->
+
+	<a href="#" class="to-top">
+		<i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
+	</a>
+
+	<header>
+		<menu class="mine">
+			<ul>
+				<li class="top"><a href="#about">ABOUT US</a></li>
+				<li><a href="#room">ROOMS</a></li>
+				<li><a href="#services">SERVICES</a></li>
+				<li><a href="#why">WHY US</a></li>
+				<li><a href="#maps">MAPS & CONTACTS</a></li>
+				<li><a href="#book"><span class="booknow">BOOK NOW</span></a></li>
+			</ul>
+
+			<hr>
+		</menu>
+
+
+		<menu onclick="show(this)" class="bar">
+		<i class="fa fa-bars" aria-hidden="true"></i>
+	</menu>
+
+	<nav>
+		<ul class="bar_ul">
+			<li><a href="#about"><span>ABOUT US</span></a></li><br>
+			<li><a href="#room"><span>ROOMS</span></a></li><br>
+			<li><a href="#services"><span>SERVICES</span></a></li><br>
+			<li><a href="#why"><span>WHY US</span></a></li><br>
+			<li><a href="#maps"><span>MAPS & CONTACTS</span></a></li><br>
+			<li><a href="#book"><span>BOOK NOW</span></a></li><br>
+		</ul>
+	</nav>
+
+
+		<img src="img/logo.png" class="top">
+		<div class="text_plaza_gallery">
+			<div class="text">
+				<h1><span>THE PLAZA</span><br><span class="hot">THE BEST HOTEL<br id="br"> OF<br id="br"> NEW-YORK</span></h1><br><br>
+				<p>S C R O L L   D O W N   <i class="fa fa-chevron-down" aria-hidden="true"></i></p>
+			</div>
+			<div class="gallery">
+				<!-- <i class="fa fa-chevron-left" aria-hidden="true"></i> -->
+				<img src="img/street2.jpg">
+				<!-- <i class="fa fa-chevron-right" aria-hidden="true"></i> -->
+			</div>
+		</div>
+		<a href="#about" class="scrolldown">
+			<p>
+			S C R O L L   D O W N  
+			 <i class="fa fa-chevron-down" aria-hidden="true"></i>
+			</p></a>
+	</header>
+	<section class="About" id="about">
+
+
+		
+
+		<h1>ABOUT US</h1><br>
+		<div class="main">
+			<div class="first"><p>The lots making up the present-day Plaza Hotel were first parceled and sold by the government of New York City in 1853, and acquired by John Anderson from 1870 to 1881. Prior to the Plaza Hotel's development the site was either occupied by the New York Skating Club,[ or was vacant. <br>
+			When John Anderson died in 1881, his will stipulated that his land would pass to his son, John Charles Anderson. The first development on the lot was proposed in 1882 when Ernest Flagg was enlisted to design a 12-story apartment building for a syndicate led by his father Jared.</p></div>
+			<div class="second"><p> However, the Flagg apartment development was not built, likely due to a lack of funding. Since its inception, the Plaza Hotel has become an icon of New York City, with numerous wealthy and famous guests. The restaurant spaces and ballrooms have hosted events such as weddings, balls, benefits, and press conferences. <br><br>
+			The hotel's design, as well as its location near Central Park, has generally received positive acclaim. In addition, the Plaza Hotel has appeared in numerous books and films. </p></div>
+		</div>
+	</section>
+	<section class="Rooms" id="room">
+		<h1>OUR ROOMS</h1><br><br>
+		<div class="all_rooms">
+			<!-- <i class="fa fa-chevron-left" aria-hidden="true"></i> -->
+			
+			<div class="room1"><a href="index1r.html" target="_self">
+				<img src="img/king-room.jpg">
+				<h1>Plaza King Room</h1>
+				<p>Plaza Kings are located on floors 5-19 and provide elegant accommodations with a comfortable sitting area.</p>
+
+				<a href="#book" class="book_now_btn"><div class="check">BOOK NOW</div></a>
+			</div>
+			<div class="room2"><a href="index2r.html">
+				<img src="img/deluxe-room.jpg">
+				<h1>Plaza Grand Luxe</h1>
+				<p>The Grand Luxe Room features an open-concept room that provides a comfortable sitting area, King Bed, and Butler's pantry.</p>
+				<a href="#book" class="book_now_btn"><div class="check">BOOK NOW</div></a></a>
+			</div>
+			<div class="room3"><a href="index3r.html">
+				<img src="img/luxe2.jpg">
+				<h1>Plaza Family Luxe</h1>
+				<p>Family Grand Luxe Two Queens features an open-concept room that provides a comfortable sitting area, two Queen beds, and Butler's pantry.  The bathrooms reflect The Plaza's classically elegant style with inlaid "earth stone" mosaics.</p>
+				<a href="#book" class="book_now_btn"><div class="check">BOOK NOW</div></a>
+			</div>
+		
+			<!-- <i class="fa fa-chevron-right" aria-hidden="true"></i> -->
+		</div>
+	</section>
+	<section class="Rooms2">
+		<div class="room_about">
+			<h1 class="h1ab">About our Rooms</h1><br>
+			<p>From our one-of-a-kind Eloise Suite, to our ultra-luxurious Penthouse Suites, The Plaza’s unparalleled accommodations are as unique as they are elegant.
+
+Our spacious guest rooms offer classic appointments and furnishings as can only be expected from New York’s most legendary address.
+
+Our contemporary Legacy Suites offer beauty in every detail, some suites with striking partial views of Central Park, outdoor terraces, and connecting rooms and suites to transform your suite into a full-family home at New York’s castle on Central Park South.</p>
+		</div>
+		<div class="gallery_room">
+				<iframe src="img/1.jpg" frameborder="0" width="650px" height="282.1px" name="gallery"></iframe>
+			<div class="gobottom">
+				<a href="img/1.jpg" target="gallery">	
+				<img src="img/1.jpg" class="scale">
+			</a>
+			<a href="img/2.jpg" target="gallery">	
+				<img src="img/2.jpg" class="scale">
+			</a>
+			<a href="img/3.jpg" target="gallery">	
+				<img src="img/3.jpg" class="scale">
+			</a>
+			<a href="img/4.jpg" target="gallery">	
+				<img src="img/4.jpg" class="scale">
+			</a>
+			<a href="img/5.jpg" target="gallery">	
+				<img src="img/5.jpg" class="scale">
+			</a>
+			<a href="img/6.jpg" target="gallery">	
+				<img src="img/6.jpg" class="scale">
+			</a>
+		</div>
+		<h1>Each room is unique!</h1>
+	</div>
+	</section>
+	<section class="services" id="services">
+		<h1>GUEST SERVICES</h1><br>
+		<hr><br>
+		<div class="ies">
+		<div class="park">
+			<i class="fa fa-car" aria-hidden="true"></i><br>
+			<p>Parking</p>
+		</div>
+		<div class="spa">
+			<i class="fa fa-venus" aria-hidden="true"></i><br>
+			<p>Guerlain Spa</p>
+		</div>
+		<div class="wifi">
+			<i class="fa fa-wifi" aria-hidden="true"></i><br>
+			<p>WiFi</p>
+		</div>
+		<div class="pet">
+			<i class="fa fa-paw" aria-hidden="true"></i><br>
+			<p>Pet Amenities</p>
+		</div>
+		<div class="bed">
+			<i class="fa fa-bed" aria-hidden="true"></i><br>
+			<p>Appartaments</p>
+		</div>
+		</div>
+	</section>
+	<section class="why" id="why" >
+		<!-- <div class="photo">
+			<img src="img/why.jpg">
+		</div> -->
+		<div class="whyus">
+			<h1>WHY US?</h1>
+			</div>
+			<!-- <h1 class="mobile">WHY US?</h1> -->
+		<div class="text1">
+			
+			<p>From feast to fete, The Plaza’s extraordinary portfolio of refined experiences is enjoyed by all who pass through the iconic revolving door. Revel in the magic of Afternoon Tea in The Palm Court, savor the sites in the elegant Champagne Bar, transport in time through the magic of The Rose Club, and embark on a culinary journey throughout The Plaza Food Hall.
+<br><br>
+Offering 282 distinctive guestrooms including 102 luxurious suites, The Plaza continues to strike the balance between its storied past and limitless future with the launch of the Legacy Suite collection. Classic crown molding is juxtaposed against contemporary works of art and lavish fabrics, adding vibrant textural elements to The Plaza’s guestrooms complete with dramatic lighting and beautifully finished woodwork to amplify the impeccable motif.
+<br><br>
+The opulent Grand Ballroom and Terrace Room have been meticulously restored to their original grandeur continuing to host many of New York City’s most memorable moments, which are at the heart of The Plaza’s legacy.</p>
+		</div>
+		<div class="photo">
+			<img src="img/why.jpg">
+		</div>
+	</section>
+	<section class="maps" id="maps">
+		<h1>MAPS & CONTACTS</h1>
+		<div class="dives">
+			<div class="info_maps">
+				<h1>MAP & LOCAL AREA</h1>
+				<p>The Plaza Boutique features one-of-a-kind gifts,<br> accessories, and apparel designed exclusively for<br> The Plaza using the finest materials and highest<br> quality craftsmanship. Take memories of your<br> unforgettable time at The Plaza home with you.<br> The Plaza Boutique is located on the Concourse<br> Level of The Plaza, in The Plaza Food Hall.</p>
+				<h2>PLAZA HOTEL</h2>
+				<p>5th Avenue at, Central Park S,<br> New York, NY 10022, USA</p>
+			</div>
+			<div class="img_maps">
+				<img src="img/map.jpg">
+			</div>
+		</div>
+	</section>
+	<section class="form" id="book">
+		<div class="booking">
+			
+			<form>
+				<h1>You can book now!</h1>
+				<input type="text" placeholder="Full Name"><br>
+				<input type="email" name="" placeholder="Your email"><br>
+				<input type="text" name="" placeholder="Phone"><br>
+				<!-- <p>Select your country*</p> -->
+				<select name="Your Country" placeholder="Your Country">
+					<option disabled>Your Country</option>
+					<option>Afghanistan</option>
+					<option>Albania</option>
+					<option>Algeria</option>
+					<option>Andorra</option>
+					<option>Angola</option>
+					<option>Antigua and Barbuda</option>
+					<option>Argentina</option>
+					<option>Armenia</option>
+					<option>Australia</option>
+					<option>Austria</option>
+					<option>Azerbaijan</option>
+					<option>Bahamas</option>
+					<option>Bahrain</option>
+					<option>Bangladesh</option>
+					<option>Barbados</option>
+					<option>Belarus</option>
+					<option>Belgium</option>
+					<option>Belize</option>
+					<option>Benin</option>
+					<option>Bhutan</option>
+					<option>Bolivia</option>
+					<option>Bosnia and Herzegovina</option>
+					<option>Botswana</option>
+					<option>Brazil</option>
+					<option>Brunei</option>
+					<option>Bulgaria</option>
+					<option>Burkina Faso</option>
+					<option>Burundi</option>
+					<option>Cambodia</option>
+					<option>Cameroon</option>
+					<option>Canada</option>
+					<option>Cape Verde</option>
+					<option>Central African Republic</option>
+					<option>Chad</option>
+					<option>Chile</option>
+					<option>China</option>
+					<option>Colombia</option>
+					<option>Comoros</option>
+					<option>Congo</option>
+					<option>Costa Rica</option>
+					<option>Cte d'Ivoire</option>
+					<option>Croatia</option>
+					<option>Cuba</option>
+					<option>Cyprus</option>
+					<option>Czech Republic</option>
+					<option>Denmark</option>
+					<option>Djibouti</option>
+					<option>Dominica</option>
+					<option>Dominican Republic</option>
+					<option>East Timor</option>
+					<option>Ecuador</option>
+					<option>Egypt</option>
+					<option>El Salvador</option>
+					<option>Equatorial Guinea</option>
+					<option>Eritrea</option>
+					<option>Estonia</option>
+					<option>Ethiopia</option>
+					<option>Fiji</option>
+					<option>Finland</option>
+					<option>France</option>
+					<option>Gabon</option>
+					<option>Gambia</option>
+					<option>Georgia (Country)</option>
+					<option>Germany</option>
+					<option>Ghana</option>
+					<option>Greece</option>
+					<option>Grenada</option>
+					<option>Guatemala</option>
+					<option>Guinea</option>
+					<option>Guinea-Bissau</option>
+					<option>Guyana</option>
+					<option>Haiti</option>
+					<option>Honduras</option>
+					<option>Hungary</option>
+					<option>Iceland</option>
+					<option>India</option>
+					<option>Indonesia</option>
+					<option>Iran</option>
+					<option>Iraq</option>
+					<option>Ireland</option>
+					<option>Israel</option>
+					<option>Italy</option>
+					<option>Jamaica</option>
+					<option>Japan</option>
+					<option>Jordan</option>
+					<option>Kazakhstan</option>
+					<option>Kenya</option>
+					<option>Kiribati</option>
+					<option>Korea, North</option>
+					<option>Korea, South</option>
+					<option>Kuwait</option>
+					<option>Kyrgyzstan</option>
+					<option>Laos</option>
+					<option>Latvia</option>
+					<option>Lebanon</option>
+					<option>Lesotho</option>
+					<option>Liberia</option>
+					<option>Libya</option>
+					<option>Liechtenstein</option>
+					<option>Lithuania</option>
+					<option>Luxembourg</option>
+					<option>Madagascar</option>
+					<option>Malawi</option>
+					<option>Malaysia</option>
+					<option>Maldives</option>
+					<option>Mali</option>
+					<option>Malta</option>
+					<option>Marshall Islands</option>
+					<option>Mauritania</option>
+					<option>Mauritius</option>
+					<option>Mexico</option>
+					<option>Micronesia</option>
+					<option>Moldova</option>
+					<option>Monaco</option>
+					<option>Mongolia</option>
+					<option>Montenegro</option>
+					<option>Morocco</option>
+					<option>Mozambique</option>
+					<option>Myanmar</option>
+					<option>North Macedonia</option>
+					<option>Namibia</option>
+					<option>Nauru</option>
+					<option>Nepal</option>
+					<option>Netherlands</option>
+					<option>New Zealand</option>
+					<option>Nicaragua</option>
+					<option>Nigeria</option>
+					<option>Northern Ireland</option>
+					<option>Norway</option>
+					<option>Oman</option>
+					<option>Pakistan</option>
+					<option>Palau</option>
+					<option>Palestine (Disputed)</option>
+					<option>Panama</option>
+					<option>Papua New Guinea</option>
+					<option>Paraguay</option>
+					<option>Peru</option>
+					<option>Philippines</option>
+					<option>Poland</option>
+					<option>Portugal</option>
+					<option>Qatar</option>
+					<option>Romania</option>
+					<option>Russia</option>
+					<option>Rwanda</option>
+					<option>Eswatini</option>
+					<option>Samoa</option>
+					<option>San Marino</option>
+					<option>So Tom and Prncipe</option>
+					<option>Saudi Arabia</option>
+					<option>Senegal</option>
+					<option>Serbia</option>
+					<option>Seychelles</option>
+					<option>Sierra Leone</option>
+					<option>Singapore</option>
+					<option>Slovakia</option>
+					<option>Slovenia</option>
+					<option>Solomon Islands</option>
+					<option>Somalia</option>
+					<option>South Africa</option>
+					<option>Spain</option>
+					<option>Sri Lanka</option>
+					<option>St. Kitts and Nevis</option>
+					<option>St. Lucia</option>
+					<option>St. Vincent and the Grenadines</option>
+					<option>Sudan</option>
+					<option>Suriname</option>
+					<option>Sweden</option>
+					<option>Switzerland</option>
+					<option>Syria</option>
+					<option>Taiwan</option>
+					<option>Tajikistan</option>
+					<option>Tanzania</option>
+					<option>Thailand</option>
+					<option>Togo</option>
+					<option>Tonga</option>
+					<option>Trinidad and Tobago</option>
+					<option>Tunisia</option>
+					<option>Turkey</option>
+					<option>Turkmenistan</option>
+					<option>Tuvalu</option>
+					<option>Uganda</option>
+					<option>Ukraine</option>
+					<option>United Arab Emirates</option>
+					<option>United Kingdom</option>
+					<option>United States Profile</option>
+					<option>Uruguay</option>
+					<option>Uzbekistan</option>
+					<option>Vanuatu</option>
+					<option>Vatican City (Holy See)</option>
+					<option>Venezuela</option>
+					<option>Vietnam</option>
+					<option>Western Sahara (Disputed)</option>
+					<option>Yemen</option>
+					<option>Zambia</option>
+					<option>Zimbabwe</option>
+				</select><p>Select your country*</p>
+				
+				<select>
+					<option disabled="select room">Select room</option>
+					<option>Plaza King Room</option>
+					<option>Deluxe King</option>
+					<option>Deluxe Two Queens</option>
+					<option>Grand Luxe King</option>
+					<option>Grand Luxe Two Queens</option>
+					<option>Terrace Room King</option>
+					<option>Tower Room</option>
+				</select><p>Select Room*</p>
+				<input type="date" name="" placeholder="Check-in Date">
+				<p>Check-in Date*</p>
+				<input type="number" name="" placeholder="Days of Stay">
+				<p class="pop">How many days of stay*</p>
+				<input type="submit" value="Book Now">
+			</form>
+		</div>
+
+		
+	</section>
+
+
+	<script type="text/javascript">
+		
+	
+
+		const toTop = document.querySelector(".to-top"); 
+
+		window.addEventListener("scroll", ( ) => {
+			if(window.pageYOffset > 100) {
+				toTop.classList.add("active");
+			} else {
+				toTop.classList.remove("active")
+			}
+		})
+
+
+
+
+
+		let opened;
+        function show(item){
+            if(opened)
+            {
+                opened.style.display = "none";
+            }
+            if(opened === item.nextElementSibling){
+                opened.style.display = "none";
+                opened = null;
+                return;
+            }
+            opened = item.nextElementSibling;
+            item.nextElementSibling.style.display = "block";
+        }
+
+
+
+	</script>
+	
+				
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

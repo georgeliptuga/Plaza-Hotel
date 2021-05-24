@@ -1,0 +1,253 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-weight: 300;
+
+}
+body
+{
+	font-family: 'Spectral', serif;
+	scroll-behavior: smooth;
+	background: #E5E5E5;
+}
+h1
+{
+	font-family: 'Spectral SC', serif;
+	font-weight: 300;
+}
+.form
+{
+	width: 100%;
+	height: 120vh;
+	background: #E5E5E5;
+	padding-top: 100px;
+}
+.booking
+{
+	width: 50%;
+	height: 98vh;
+	background: white;
+	box-shadow: 0 0 10px 5px silver;
+	margin: auto;
+	padding-top: 50px;
+	/*padding-left: 50px;*/
+	display: flex;
+	justify-content: center;
+
+}
+.booking form input
+{
+	/*font-family: 'Spectral SC', serif;*/
+	width: 600px;
+	height: 50px;
+	margin-top: 15px;
+	font-size: 20px;
+	border: 1px solid gainsboro;
+	outline: none;
+	color: #10284A;
+}
+.booking form select
+{
+	/*font-family: 'Spectral SC', serif;*/
+	width: 600px;
+	height: 50px;
+	margin-top: 15px;
+	font-size: 20px;
+	border-radius: 0 0 0 0;
+	background: 0;
+	border: 1px solid gainsboro;
+	outline: none;
+	color: grey;
+	/*-moz-appearance: none;*/
+	/*-webkit-appearance: none;*/
+}
+.booking input[type="submit"]
+{
+	width: 300px;
+	float: right;
+	color: white;
+	background: #10284A;
+	border: 1px solid #10284A;
+}
+.booking input[type="submit"]:hover
+{
+	background: white;
+	color: #10284A;
+	cursor: pointer;
+}
+.booking form select:hover
+{
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 600px)
+{
+.form
+  {
+    width: 100%;
+    height: auto;
+    background: #E5E5E5;
+    padding-top: 100px;
+    padding: 10px;
+  }
+  .booking
+  {
+    width: 80%;
+    height: auto;
+    background: white;
+    box-shadow: 0 0 10px 5px silver;
+    margin: auto;
+    padding-top: 20px;
+    /*padding-left: 50px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+
+}
+.booking p
+{
+	
+	font-size: 13px;
+}
+  .booking form input
+  {
+    /*font-family: 'Spectral SC', serif;*/
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+    font-size: 15px;
+    border: 1px solid gainsboro;
+    outline: none;
+    color: #10284A;
+      }
+  .booking form select
+  {
+    /*font-family: 'Spectral SC', serif;*/
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+    font-size: 15px;
+    border-radius: 0 0 0 0;
+    background: 0;
+    border: 1px solid gainsboro;
+    outline: none;
+    color: grey;
+    /*-moz-appearance: none;*/
+    /*-webkit-appearance: none;*/
+  }
+  .booking input[type="submit"]
+  {
+    width: 100px;
+    float: right;
+    color: white;
+    background: #10284A;
+    border: 1px solid #10284A;
+    margin-top: 20px
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 420px) and (max-width: 768px)
+{
+.form
+  {
+    width: 100%;
+    height: 75vh;
+    background: #E5E5E5;
+    padding-top: 50px;
+  }
+  .booking
+  {
+    width: 90%;
+    height: 77vh;
+    background: white;
+    box-shadow: 0 0 10px 5px silver;
+    margin: auto;
+    padding-top: 50px;
+    /*padding-left: 50px;*/
+    display: flex;
+    justify-content: center;
+
+  }
+  .booking form input
+  {
+    /*font-family: 'Spectral SC', serif;*/
+    width: 500px;
+    height: 50px;
+    margin-top: 15px;
+    font-size: 20px;
+    border: 1px solid gainsboro;
+    outline: none;
+    color: #10284A;
+  }
+  .booking form select
+  {
+    /*font-family: 'Spectral SC', serif;*/
+    width: 500px;
+    height: 50px;
+    margin-top: 15px;
+    font-size: 20px;
+    border-radius: 0 0 0 0;
+    background: 0;
+    border: 1px solid gainsboro;
+    outline: none;
+    color: grey;
+    /*-moz-appearance: none;*/
+    /*-webkit-appearance: none;*/
+  }
+  .booking input[type="submit"]
+  {
+    width: 300px;
+    /*float: center;*/
+    color: white;
+    background: #10284A;
+    border: 1px solid #10284A;
+    margin-top: 50px;
+    margin-right: 100px;
+  }
+  .booking input[type="submit"]:hover
+  {
+    background: white;
+    color: #10284A;
+    cursor: pointer;
+
+  }
+  .booking form select:hover
+  {
+    cursor: pointer;
+  }
+  .form .booking form h1
+  {
+    text-align: center;
+  }
+}
